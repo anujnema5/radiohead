@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background: url(https://thumbs.gfycat.com/ScaredGranularAstrangiacoral-max-1mb.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.532); */
+}
+
+#nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+
+#rightNav {
+    display: flex;
+    gap: 50px;
+}
+
+#rightNav a,
+p {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.767);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+#nav>i {
+    display: none;
+}
+
+@media (max-width : 790px) {
+    #nav>i {
+        display: block;
+    }
+
+    #rightNav {
+        display: none;
+    }
+
+    .resh {
+        width: 120px;
+        height: 29px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.406);
+        white-space: nowrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border-radius: 10px; */
+        gap: 7px;
+        opacity: 1;
+    }
+}
+
+#ticketMenu {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.137);
+    min-height: 150px;
+    width: 130px;
+    border-radius: 20px;
+    /* display: none; */
+    right: 29%;
+    top: 60px;
+    opacity: 0;
+}
+
+.navUl {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* align-items: center; */
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.navList {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.731);
+    white-space: nowrap;
+    text-align: left;
+    transition: ease-in-out;
+    cursor: pointer;
+}
+
+.navList:hover {
+    color: white;
+    font-weight: 800;
+}
+
+#tourMenu {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.137);
+    min-height: 180px;
+    width: 130px;
+    border-radius: 20px;
+    /* display: none; */
+    right: 19%;
+    top: 60px;
+    opacity: 0;
+}
+
+i {
+    cursor: pointer;
+}
+
+#responsiveMenu {
+    color: white;
+    position: absolute;
+    right: 5%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    /* overflow: hidden; */
+    opacity: 0;
+}
+
+.resh4 {
+    width: 130px;
+    height: 29px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.406);
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 10px; */
+    gap: 7px;
+    opacity: 1;
+
+}
+
+.overlay img {
+    width: 450px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50px;
+    top: 32%;
+}
+
+#two { 
+    width: 450px;
+    position: absolute;
+    left: 35%;
+    top: 32%;
+
+}
+
+#three {
+    width: 450px;
+    position: absolute;
+    left: 70%;
+    top: 32%;
+}
